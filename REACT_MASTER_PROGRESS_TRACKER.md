@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 17 Completed -> Ready for PART 18  
-**Last Updated:** Part 17 Observability (Trace IDs, Sentry/Monitoring, Error Boundaries) Completed
+**Current Phase:** PART 18 Completed -> Ready for PART 19  
+**Last Updated:** Part 18 Deployment and Infrastructure (Docker, Nginx, CI/CD) Completed
 
 ---
 
@@ -154,7 +154,12 @@
   - [x] 17.3 User Session Replay, DOM Recording & Privacy Masking
   - [x] 17.4 Synthetic Health Checks, Heartbeats & Offline Resilience
   - [x] 17.5 Observability Issues Lab (OBS-001 to OBS-008)
-- [ ] **PART 18** — Deployment and Infrastructure (Docker, Nginx, CI/CD)
+- [x] **PART 18** — Deployment and Infrastructure (Docker, Nginx, CI/CD)
+  - [x] 18.1 Multi-Stage Production Dockerfile Design (From 1.2GB to 24MB)
+  - [x] 18.2 Production Nginx Configuration: Caching, Routing & Compression
+  - [x] 18.3 Runtime Environment Variable Injection in Containerized React
+  - [x] 18.4 Enterprise GitHub Actions CI/CD Pipeline
+  - [x] 18.5 Deployment & Infrastructure Issues Lab (DEPLOY-001 to DEPLOY-008)
 - [ ] **PART 19** — Project Journey (5 Progressive Real-World Projects)
 - [ ] **PART 20** — Production Incident Laboratory (Simulations)
 - [ ] **PART 21** — Senior Debugging Playbooks
