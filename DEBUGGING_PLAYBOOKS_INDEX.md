@@ -27,3 +27,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-021** | Production Incident Command, Escalation & Post-Mortem SOP | Incident / Command | Severity matrix P0-P3, war room protocols, rapid rollback procedures, 5 Whys post-mortems | Published |
 | **PB-022** | Emergency Frontend Incident Command & Fast-Triage Decision Engine | Triage / Emergency | 3-minute symptom mapping engine, rapid rollback execution, staging RCA protocol | Published |
 | **PB-023** | Enterprise Pull Request Review & Architectural Gatekeeping SOP | Review / Quality | Senior review rubric, security checklists, state colocation gatekeeping, review prefixes | Published |
+| **PB-024** | Deliberate Engineering Practice & Continuous Skill Acquisition SOP | Practice / Habits | 45-min daily mastery loop, sandboxed break-and-fix drills, weekly knowledge gap audits | Published |
