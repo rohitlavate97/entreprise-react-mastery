@@ -11,3 +11,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-005** | React Fiber Rendering & Hydration Mismatch Triage | Fiber / SSR | Infinite re-render loops, hydration diffs, and transition starvation | Published |
 | **PB-006** | React Hooks & Memory Leak Triage | Hooks / Lifecycle | Stale closures, dependency loops, and detached DOM heap leaks | Published |
 | **PB-007** | Enterprise Component Architecture & Boundary Refactoring Triage | Architecture / Design | God component decomposition, feature boundary enforcement, state colocation audit | Published |
+| **PB-008** | SPA Routing & Navigation Triage | Routing / Navigation | SPA 404 on refresh, auth redirect loops, URL state desync, stale loader data | Published |
