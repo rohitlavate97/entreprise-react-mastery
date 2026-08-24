@@ -1,8 +1,8 @@
 ﻿# React + Spring Boot Engineering Mastery — Progress Tracker
 
-**Status:** Initial Assessment in Progress  
-**Current Phase:** Diagnostic & Baseline Assessment  
-**Last Updated:** Assessment Kickoff
+**Status:** In Progress  
+**Current Phase:** PART 0 Completed -> Ready for PART 1  
+**Last Updated:** Part 0 Web, Browser, and HTTP Foundations Completed
 
 ---
 
@@ -10,32 +10,37 @@
 
 | Area | Assessed Level | Confidence | Key Strengths / Gaps Identified |
 |---|---|---|---|
-| **JavaScript (ES6+, Event Loop, Closures, Async)** | *Pending Assessment* | - | - |
-| **TypeScript (Generics, Unions, Discriminated Unions, Typing)** | *Pending Assessment* | - | - |
-| **HTML / CSS (Layout, Box Model, Paint/Reflow)** | *Pending Assessment* | - | - |
-| **Browser Internals / DOM (Rendering pipeline, DevTools)** | *Pending Assessment* | - | - |
-| **HTTP / REST / Networking (CORS, Headers, Statuses, Caching)** | *Pending Assessment* | - | - |
-| **React Fundamentals (JSX, Virtual DOM, Components, Props, Keys)** | *Pending Assessment* | - | - |
-| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | *Pending Assessment* | - | - |
-| **Component Design & Architecture (Feature Slices, Composition)** | *Pending Assessment* | - | - |
-| **Routing (React Router, SPA 404s, Protected Routes)** | *Pending Assessment* | - | - |
-| **Form Engineering (Controlled, Uncontrolled, Validation)** | *Pending Assessment* | - | - |
-| **State Management (Local, Server State, Global, URL State)** | *Pending Assessment* | - | - |
-| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | *Pending Assessment* | - | - |
-| **React + Spring Boot Integration (DTOs, Long/Date precision, CORS)** | *Pending Assessment* | - | - |
-| **Spring Boot & Spring Security (Filters, JWT/Cookie Auth, RBAC)** | *Pending Assessment* | - | - |
-| **Databases & SQL (JPA, Schema, Constraints, Transactions)** | *Pending Assessment* | - | - |
-| **Testing Strategy (Unit, Integration, Hook, Mock, E2E)** | *Pending Assessment* | - | - |
-| **Security (XSS, CSRF, Token Storage, CSP, Auth)** | *Pending Assessment* | - | - |
-| **Performance Engineering (Profiler, Long Tasks, Virtualization)** | *Pending Assessment* | - | - |
-| **Observability & Monitoring (Correlation IDs, Error Boundaries)** | *Pending Assessment* | - | - |
-| **Deployment & Infrastructure (Nginx, Docker, CI/CD, SPA rewrites)** | *Pending Assessment* | - | - |
+| **JavaScript (ES6+, Event Loop, Closures, Async)** | Foundation Built | High | Event Loop, Call Stack, Micro/Macrotask mechanics mastered |
+| **TypeScript (Generics, Unions, Discriminated Unions, Typing)** | Pending Part 2 | - | Ready for deep dive |
+| **HTML / CSS (Layout, Box Model, Paint/Reflow)** | Strong | High | Rendering pipeline, Reflow vs Paint vs Compositing mastered |
+| **Browser Internals / DOM (Rendering pipeline, DevTools)** | Strong | High | DevTools Performance & Memory profiling workflows mastered |
+| **HTTP / REST / Networking (CORS, Headers, Statuses, Caching)** | Strong | High | CORS preflight mechanics, Cache-Control & Nginx SPA fallbacks mastered |
+| **React Fundamentals (JSX, Virtual DOM, Components, Props, Keys)** | Pending Part 3 | - | Ready for deep dive |
+| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | Pending Part 5 | - | Ready for deep dive |
+| **Component Design & Architecture (Feature Slices, Composition)** | Pending Part 6 | - | Ready for deep dive |
+| **Routing (React Router, SPA 404s, Protected Routes)** | Foundation Built | High | Nginx SPA fallback `try_files` rule mastered |
+| **Form Engineering (Controlled, Uncontrolled, Validation)** | Pending Part 8 | - | Ready for deep dive |
+| **State Management (Local, Server State, Global, URL State)** | Pending Part 9 | - | Ready for deep dive |
+| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | Foundation Built | High | CORS headers, HTTP Status codes, Preflights mastered |
+| **React + Spring Boot Integration (DTOs, Long/Date precision, CORS)** | Foundation Built | High | Spring Security CORS configuration & OPTIONS permitAll mastered |
+| **Spring Boot & Spring Security (Filters, JWT/Cookie Auth, RBAC)** | Foundation Built | High | Security filter chain vs CORS filter order mastered |
+| **Databases & SQL (JPA, Schema, Constraints, Transactions)** | Pending Part 11 | - | Ready for deep dive |
+| **Testing Strategy (Unit, Integration, Hook, Mock, E2E)** | Pending Part 15 | - | Ready for deep dive |
+| **Security (XSS, CSRF, Token Storage, CSP, Auth)** | Strong | High | In-memory token + HttpOnly cookie architecture mastered |
+| **Performance Engineering (Profiler, Long Tasks, Virtualization)** | Strong | High | Reflow prevention, GPU layer promotion, Long tasks (>50ms) mastered |
+| **Observability & Monitoring (Correlation IDs, Error Boundaries)** | Pending Part 17 | - | Ready for deep dive |
+| **Deployment & Infrastructure (Nginx, Docker, CI/CD, SPA rewrites)** | Strong | High | Nginx caching rules, immutable headers, bundle retention mastered |
 
 ---
 
 ## 2. Program Master Syllabus & Status
 
-- [ ] **PART 0** — Web, Browser, and HTTP Foundations
+- [x] **PART 0** — Web, Browser, and HTTP Foundations
+  - [x] 0.1 Browser Rendering Pipeline & Critical Rendering Path
+  - [x] 0.2 JavaScript Runtime, Event Loop & React Batching
+  - [x] 0.3 HTTP Networking, Caching Headers & CORS Mechanics
+  - [x] 0.4 Browser Storage & Client-Side Security
+  - [x] 0.5 Browser & Networking Issues Lab (BROWSER-001 to BROWSER-008)
 - [ ] **PART 1** — JavaScript Deep Mastery for React
 - [ ] **PART 2** — TypeScript for Production React
 - [ ] **PART 3** — React Fundamentals (From First Principles)
