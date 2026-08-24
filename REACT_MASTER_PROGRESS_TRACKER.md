@@ -1,8 +1,8 @@
 ﻿# React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 3 Completed -> Ready for PART 4  
-**Last Updated:** Part 3 React Fundamentals (From First Principles) Completed
+**Current Phase:** PART 4 Completed -> Ready for PART 5  
+**Last Updated:** Part 4 How React Actually Works (Internals, Fiber, Reconciliation & Hydration) Completed
 
 ---
 
@@ -13,22 +13,22 @@
 | **JavaScript (ES6+, Event Loop, Closures, Async)** | Advanced | High | Lexical scoping, TDZ, Referential equality, Object.is, AbortController, Purity, ESM treeshaking |
 | **TypeScript (Generics, Unions, Discriminated Unions, Typing)** | Advanced | High | Discriminated unions, Generics & Constraints, Zod runtime validation, Type Guards, tsconfig strictness |
 | **HTML / CSS (Layout, Box Model, Paint/Reflow)** | Strong | High | Rendering pipeline, Reflow vs Paint vs Compositing mastered |
-| **Browser Internals / DOM (Rendering pipeline, DevTools)** | Strong | High | DevTools Performance & Memory profiling workflows mastered |
+| **Browser Internals / DOM (Rendering pipeline, DevTools)** | Advanced | High | DevTools Performance & Memory profiling workflows, Work Loop time slicing |
 | **HTTP / REST / Networking (CORS, Headers, Statuses, Caching)** | Strong | High | CORS preflight mechanics, Cache-Control & Nginx SPA fallbacks mastered |
 | **React Fundamentals (JSX, Virtual DOM, Components, Props, Keys)** | Advanced | High | Declarative UI, JSX compilation, $$typeof XSS defense, Key reconciliation, Controlled/Uncontrolled |
-| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | Foundation Built | High | Closure capture, Ref types, and functional updater mechanics mastered |
-| **Component Design & Architecture (Feature Slices, Composition)** | Strong | High | Generic components, Slots pattern, Compound components, Props & Children typing |
+| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | Advanced | High | Fiber memoizedState linked list, Effects timeline (useLayoutEffect vs useEffect) |
+| **Component Design & Architecture (Feature Slices, Composition)** | Strong | High | Generic components, Slots pattern, Compound components, ErrorBoundary containment |
 | **Routing (React Router, SPA 404s, Protected Routes)** | Foundation Built | High | Nginx SPA fallback `try_files` rule mastered |
 | **Form Engineering (Controlled, Uncontrolled, Validation)** | Strong | High | Controlled state vs Uncontrolled FormData, input warnings prevention |
-| **State Management (Local, Server State, Global, URL State)** | Strong | High | Snapshot mental model, functional updaters, discriminated union reducers |
-| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | Advanced | High | Zod boundary parsing, DTO schema drift defense, AbortController |
-| **React + Spring Boot Integration (DTOs, Long/Date precision, CORS)** | Strong | High | DTO TypeScript typing vs Spring Boot Java entities, CORS preflights |
+| **State Management (Local, Server State, Global, URL State)** | Strong | High | Lane priorities, Transitions (useTransition, useDeferredValue), Double buffering |
+| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | Advanced | High | Zod boundary parsing, DTO schema drift defense, AbortController, Suspense waterfalls |
+| **React + Spring Boot Integration (DTOs, Long/Date precision, CORS)** | Strong | High | DTO TypeScript typing vs Spring Boot Java entities, SSR hydration alignment |
 | **Spring Boot & Spring Security (Filters, JWT/Cookie Auth, RBAC)** | Foundation Built | High | Security filter chain vs CORS filter order mastered |
 | **Databases & SQL (JPA, Schema, Constraints, Transactions)** | Pending Part 11 | - | Ready for deep dive |
 | **Testing Strategy (Unit, Integration, Hook, Mock, E2E)** | Pending Part 15 | - | Ready for deep dive |
 | **Security (XSS, CSRF, Token Storage, CSP, Auth)** | Advanced | High | $$typeof symbol protection, in-memory tokens + HttpOnly cookies, input sanitization |
-| **Performance Engineering (Profiler, Long Tasks, Virtualization)** | Strong | High | Reflow prevention, GPU layer promotion, Stable keys vs remount thrashing |
-| **Observability & Monitoring (Correlation IDs, Error Boundaries)** | Pending Part 17 | - | Ready for deep dive |
+| **Performance Engineering (Profiler, Long Tasks, Virtualization)** | Advanced | High | Fiber Lane priorities, useTransition, useDeferredValue, Layout blocking prevention |
+| **Observability & Monitoring (Correlation IDs, Error Boundaries)** | Strong | High | Class-based Error Boundaries, Sentry telemetry, Hydration diff tracking |
 | **Deployment & Infrastructure (Nginx, Docker, CI/CD, SPA rewrites)** | Strong | High | Nginx caching rules, immutable headers, bundle retention mastered |
 
 ---
@@ -61,7 +61,13 @@
   - [x] 3.4 Reconciliation Identity & The `key` Prop Deep Dive
   - [x] 3.5 Form Mechanics: Controlled vs. Uncontrolled Components
   - [x] 3.6 React Fundamentals Issues Lab (REACT-001 to REACT-008)
-- [ ] **PART 4** — How React Actually Works (Reconciliation, Fiber, Batching)
+- [x] **PART 4** — How React Actually Works (Reconciliation, Fiber, Batching)
+  - [x] 4.1 The Fiber Architecture & Two-Phase Rendering Model
+  - [x] 4.2 Reconciliation Algorithm & Fiber Diffing Heuristics
+  - [x] 4.3 Concurrent React, Lane Priorities & Transition Architecture
+  - [x] 4.4 Effects Lifecycle: `useLayoutEffect` vs. `useEffect` & Strict Mode
+  - [x] 4.5 Server-Side Rendering (SSR) & Client Hydration Mechanics
+  - [x] 4.6 Fiber Internals Issues Lab (FIBER-001 to FIBER-008)
 - [ ] **PART 5** — Hooks Mastery (Extreme Depth)
 - [ ] **PART 6** — Component Design and Enterprise Architecture
 - [ ] **PART 7** — Routing (Client-side Routing, Layouts, Guards)
