@@ -1,4 +1,4 @@
-﻿# Debugging Playbooks Index
+# Debugging Playbooks Index
 
 Senior Engineer debugging workflows, mental models, and step-by-step triage playbooks.
 
@@ -10,3 +10,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-004** | React Component Identity & Key Reconciliation Triage | Component / Tree | Focus loss, index key state corruption, and remount thrashing | Published |
 | **PB-005** | React Fiber Rendering & Hydration Mismatch Triage | Fiber / SSR | Infinite re-render loops, hydration diffs, and transition starvation | Published |
 | **PB-006** | React Hooks & Memory Leak Triage | Hooks / Lifecycle | Stale closures, dependency loops, and detached DOM heap leaks | Published |
+| **PB-007** | Enterprise Component Architecture & Boundary Refactoring Triage | Architecture / Design | God component decomposition, feature boundary enforcement, state colocation audit | Published |

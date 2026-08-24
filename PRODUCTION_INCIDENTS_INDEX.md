@@ -1,4 +1,4 @@
-﻿# Production Incidents Index
+# Production Incidents Index
 
 Catalog of realistic production outages, edge-case regressions, and postmortems.
 
@@ -16,3 +16,5 @@ Catalog of realistic production outages, edge-case regressions, and postmortems.
 | **INC-010** | SSR Hydration Mismatch Breaks Auth Status Header & Flashes UI | 🔴 P2 | SSR / Hydration | [`04-react-internals/06-fiber-internals-issues-lab.md`](./04-react-internals/06-fiber-internals-issues-lab.md) | Resolved |
 | **INC-011** | Context Re-render Cascade Freezes Large Enterprise Data Entry Grid | 🔴 P1 | Hooks / Context | [`05-hooks-mastery/07-hooks-issues-lab.md`](./05-hooks-mastery/07-hooks-issues-lab.md) | Resolved |
 | **INC-012** | Uncleaned WebSocket Subscription in Custom Hook Exhausts Client RAM | 🔴 P2 | Hooks / Memory | [`05-hooks-mastery/07-hooks-issues-lab.md`](./05-hooks-mastery/07-hooks-issues-lab.md) | Resolved |
+| **INC-013** | Missing Error Boundary White-Screens Entire Enterprise Dashboard on Chart Widget Crash | 🔴 P1 | Architecture / Resilience | [`06-component-architecture/06-architecture-issues-lab.md`](./06-component-architecture/06-architecture-issues-lab.md) | Resolved |
+| **INC-014** | God Component Checkout Page Untestable, Causing Regression on Every Sprint Release | 🔴 P2 | Architecture / Design | [`06-component-architecture/06-architecture-issues-lab.md`](./06-component-architecture/06-architecture-issues-lab.md) | Resolved |
