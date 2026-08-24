@@ -25,3 +25,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-019** | Container Deployment, Nginx Routing & CI/CD Pipeline Triage | Deployment / Nginx | Nginx try_files 404, two-tier cache headers, Docker non-root permissions, runtime env vars | Published |
 | **PB-020** | Full-Stack Project Architecture & Monorepo Scaling Triage | Architecture / Scaling | Multi-tenant cache purges, RAF WebSocket tick throttling, optimistic concurrency rollback | Published |
 | **PB-021** | Production Incident Command, Escalation & Post-Mortem SOP | Incident / Command | Severity matrix P0-P3, war room protocols, rapid rollback procedures, 5 Whys post-mortems | Published |
+| **PB-022** | Emergency Frontend Incident Command & Fast-Triage Decision Engine | Triage / Emergency | 3-minute symptom mapping engine, rapid rollback execution, staging RCA protocol | Published |
