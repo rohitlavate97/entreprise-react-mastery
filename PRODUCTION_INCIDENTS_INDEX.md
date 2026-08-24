@@ -22,3 +22,5 @@ Catalog of realistic production outages, edge-case regressions, and postmortems.
 | **INC-016** | Auth Guard Infinite Redirect Loop Freezing Browser After Session Expiry | 🔴 P1 | Routing / Auth | [`07-routing/06-routing-issues-lab.md`](./07-routing/06-routing-issues-lab.md) | Resolved |
 | **INC-017** | Double Payment Submission Charges Customer Twice — $47K Revenue Impact | 🔴 P1 | Forms / Idempotency | [`08-forms/06-forms-issues-lab.md`](./08-forms/06-forms-issues-lab.md) | Resolved |
 | **INC-018** | Dynamic Invoice Line Item Deletion Corrupts Row Data via Index Key | 🔴 P2 | Forms / Dynamic | [`08-forms/06-forms-issues-lab.md`](./08-forms/06-forms-issues-lab.md) | Resolved |
+| **INC-019** | Multi-Tenant Cache Leak Shows Customer Data Across Organizations | 🔴 P1 | State / Multi-Tenant | [`09-state-management/06-state-issues-lab.md`](./09-state-management/06-state-issues-lab.md) | Resolved |
+| **INC-020** | Infinite Query Refetch Storm Takes Down Spring Boot Backend Service | 🔴 P1 | State / Performance | [`09-state-management/06-state-issues-lab.md`](./09-state-management/06-state-issues-lab.md) | Resolved |
