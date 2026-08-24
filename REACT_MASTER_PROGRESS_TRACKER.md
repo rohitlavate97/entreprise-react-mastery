@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 14 Completed -> Ready for PART 15  
-**Last Updated:** Part 14 Performance Engineering & Web Vitals Completed
+**Current Phase:** PART 15 Completed -> Ready for PART 16  
+**Last Updated:** Part 15 Testing Strategy & Test Automation Completed
 
 ---
 
@@ -136,7 +136,12 @@
   - [x] 14.3 Bundle Optimization, Code Splitting & Tree-Shaking Discipline
   - [x] 14.4 Core Web Vitals Optimization: LCP, INP & CLS Engineering
   - [x] 14.5 Performance Issues Lab (PERF-001 to PERF-008)
-- [ ] **PART 15** — Testing Strategy & Test Automation
+- [x] **PART 15** — Testing Strategy & Test Automation
+  - [x] 15.1 The Enterprise Testing Pyramid & Behavioral Testing Philosophy
+  - [x] 15.2 Unit & Custom Hook Testing with Vitest & React Testing Library
+  - [x] 15.3 Integration Testing with Mock Service Worker (MSW v2)
+  - [x] 15.4 End-to-End (E2E) Testing with Playwright
+  - [x] 15.5 Testing Strategy Issues Lab (TEST-001 to TEST-008)
 - [ ] **PART 16** — Security (XSS, CSRF, Content Security Policy)
 - [ ] **PART 17** — Observability (Trace IDs, Sentry/Monitoring, Error Boundaries)
 - [ ] **PART 18** — Deployment and Infrastructure (Docker, Nginx, CI/CD)
