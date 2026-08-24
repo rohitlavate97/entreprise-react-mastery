@@ -12,3 +12,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-006** | React Hooks & Memory Leak Triage | Hooks / Lifecycle | Stale closures, dependency loops, and detached DOM heap leaks | Published |
 | **PB-007** | Enterprise Component Architecture & Boundary Refactoring Triage | Architecture / Design | God component decomposition, feature boundary enforcement, state colocation audit | Published |
 | **PB-008** | SPA Routing & Navigation Triage | Routing / Navigation | SPA 404 on refresh, auth redirect loops, URL state desync, stale loader data | Published |
+| **PB-009** | Form Submission & Validation Triage | Forms / Submission | Double submission dedup, validation layer defense, wizard state persistence | Published |

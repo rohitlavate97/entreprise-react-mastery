@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 7 Completed -> Ready for PART 8  
-**Last Updated:** Part 7 Routing (Client-side Routing, Layouts, Guards) Completed
+**Current Phase:** PART 8 Completed -> Ready for PART 9  
+**Last Updated:** Part 8 Forms (Validation, Idempotency, Multi-step) Completed
 
 ---
 
@@ -90,7 +90,13 @@
   - [x] 7.4 Data Loading, Route-Level Error Handling & Suspense Integration
   - [x] 7.5 URL State Management: Search Params, Pagination & Deep Linking
   - [x] 7.6 Routing Issues Lab (ROUTE-001 to ROUTE-008)
-- [ ] **PART 8** — Forms (Validation, Idempotency, Multi-step)
+- [x] **PART 8** — Forms (Validation, Idempotency, Multi-step)
+  - [x] 8.1 Controlled vs Uncontrolled Form Architecture
+  - [x] 8.2 Form Validation Strategies: Client-Side, Server-Side & Shared Schemas
+  - [x] 8.3 Multi-Step / Wizard Forms: State Persistence, Step Validation & Navigation
+  - [x] 8.4 Idempotent Form Submissions: Double-Submit Prevention & Enterprise Safety
+  - [x] 8.5 React Hook Form & Enterprise Integration
+  - [x] 8.6 Forms Issues Lab (FORM-001 to FORM-008)
 - [ ] **PART 9** — State Management (Server State, Global State, URL State)
 - [ ] **PART 10** — API and Networking Architecture
 - [ ] **PART 11** — React + Spring Boot Integration (Contracts, Auth, CORS, Idempotency)

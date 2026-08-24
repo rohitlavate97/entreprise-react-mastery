@@ -20,3 +20,5 @@ Catalog of realistic production outages, edge-case regressions, and postmortems.
 | **INC-014** | God Component Checkout Page Untestable, Causing Regression on Every Sprint Release | 🔴 P2 | Architecture / Design | [`06-component-architecture/06-architecture-issues-lab.md`](./06-component-architecture/06-architecture-issues-lab.md) | Resolved |
 | **INC-015** | SPA 404 on Direct URL Navigation After Nginx Deployment — All Deep Links Broken | 🔴 P1 | Routing / Nginx | [`07-routing/06-routing-issues-lab.md`](./07-routing/06-routing-issues-lab.md) | Resolved |
 | **INC-016** | Auth Guard Infinite Redirect Loop Freezing Browser After Session Expiry | 🔴 P1 | Routing / Auth | [`07-routing/06-routing-issues-lab.md`](./07-routing/06-routing-issues-lab.md) | Resolved |
+| **INC-017** | Double Payment Submission Charges Customer Twice — $47K Revenue Impact | 🔴 P1 | Forms / Idempotency | [`08-forms/06-forms-issues-lab.md`](./08-forms/06-forms-issues-lab.md) | Resolved |
+| **INC-018** | Dynamic Invoice Line Item Deletion Corrupts Row Data via Index Key | 🔴 P2 | Forms / Dynamic | [`08-forms/06-forms-issues-lab.md`](./08-forms/06-forms-issues-lab.md) | Resolved |
