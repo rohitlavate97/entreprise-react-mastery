@@ -14,3 +14,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-008** | SPA Routing & Navigation Triage | Routing / Navigation | SPA 404 on refresh, auth redirect loops, URL state desync, stale loader data | Published |
 | **PB-009** | Form Submission & Validation Triage | Forms / Submission | Double submission dedup, validation layer defense, wizard state persistence | Published |
 | **PB-010** | State Management & Cache Desynchronization Triage | State / Cache | Infinite query loops, optimistic rollback failures, split-brain state, multi-tenant cache leaks | Published |
+| **PB-011** | API Client, Auth Interceptor & Network Resilience Triage | API / Resilience | Token refresh race conditions, infinite 401 loops, CORS preflight errors, DTO drift | Published |

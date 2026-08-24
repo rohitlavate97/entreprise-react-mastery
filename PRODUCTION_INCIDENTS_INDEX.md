@@ -24,3 +24,5 @@ Catalog of realistic production outages, edge-case regressions, and postmortems.
 | **INC-018** | Dynamic Invoice Line Item Deletion Corrupts Row Data via Index Key | 🔴 P2 | Forms / Dynamic | [`08-forms/06-forms-issues-lab.md`](./08-forms/06-forms-issues-lab.md) | Resolved |
 | **INC-019** | Multi-Tenant Cache Leak Shows Customer Data Across Organizations | 🔴 P1 | State / Multi-Tenant | [`09-state-management/06-state-issues-lab.md`](./09-state-management/06-state-issues-lab.md) | Resolved |
 | **INC-020** | Infinite Query Refetch Storm Takes Down Spring Boot Backend Service | 🔴 P1 | State / Performance | [`09-state-management/06-state-issues-lab.md`](./09-state-management/06-state-issues-lab.md) | Resolved |
+| **INC-021** | Concurrent 401 Storm Triggers Refresh Token Revocation & Mass User Logout | 🔴 P1 | API / Auth | [`10-api-networking/06-api-issues-lab.md`](./10-api-networking/06-api-issues-lab.md) | Resolved |
+| **INC-022** | Non-Idempotent POST Retry on 504 Gateway Timeout Double-Bills Customers | 🔴 P1 | API / Retries | [`10-api-networking/06-api-issues-lab.md`](./10-api-networking/06-api-issues-lab.md) | Resolved |

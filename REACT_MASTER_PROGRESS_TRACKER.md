@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 9 Completed -> Ready for PART 10  
-**Last Updated:** Part 9 State Management (Server State, Global State, URL State) Completed
+**Current Phase:** PART 10 Completed -> Ready for PART 11  
+**Last Updated:** Part 10 API and Networking Architecture Completed
 
 ---
 
@@ -104,7 +104,13 @@
   - [x] 9.4 Client Global State with Zustand: Store Design & Fine-Grained Selectors
   - [x] 9.5 URL State & Server Cache Coordination
   - [x] 9.6 State Management Issues Lab (STATE-001 to STATE-008)
-- [ ] **PART 10** — API and Networking Architecture
+- [x] **PART 10** — API and Networking Architecture
+  - [x] 10.1 HTTP Client Abstraction & Instance Design
+  - [x] 10.2 Interceptor Pipeline Architecture & Silent Token Refresh Mutex
+  - [x] 10.3 Network Resilience: Exponential Backoff, Jitter & Retry Policies
+  - [x] 10.4 In-Flight Request Deduplication & Signal Cancellation
+  - [x] 10.5 Runtime API Validation with Zod & DTO Drift Defense
+  - [x] 10.6 API & Networking Issues Lab (API-001 to API-008)
 - [ ] **PART 11** — React + Spring Boot Integration (Contracts, Auth, CORS, Idempotency)
 - [ ] **PART 12** — Local Development Troubleshooting Database
 - [ ] **PART 13** — Production Debugging and Incident Response
