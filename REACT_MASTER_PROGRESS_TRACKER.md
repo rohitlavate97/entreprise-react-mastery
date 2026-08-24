@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 15 Completed -> Ready for PART 16  
-**Last Updated:** Part 15 Testing Strategy & Test Automation Completed
+**Current Phase:** PART 16 Completed -> Ready for PART 17  
+**Last Updated:** Part 16 Security (XSS, CSRF, Content Security Policy) Completed
 
 ---
 
@@ -142,7 +142,12 @@
   - [x] 15.3 Integration Testing with Mock Service Worker (MSW v2)
   - [x] 15.4 End-to-End (E2E) Testing with Playwright
   - [x] 15.5 Testing Strategy Issues Lab (TEST-001 to TEST-008)
-- [ ] **PART 16** — Security (XSS, CSRF, Content Security Policy)
+- [x] **PART 16** — Security (XSS, CSRF, Content Security Policy)
+  - [x] 16.1 Cross-Site Scripting (XSS) Defense & DOMPurify Sanitization
+  - [x] 16.2 CSRF Defense, SameSite Cookies & Double-Submit Tokens
+  - [x] 16.3 Content Security Policy (CSP), Nonces & Clickjacking Defense
+  - [x] 16.4 Software Supply Chain Security, npm Audits & Subresource Integrity (SRI)
+  - [x] 16.5 Security Engineering Issues Lab (SEC-001 to SEC-008)
 - [ ] **PART 17** — Observability (Trace IDs, Sentry/Monitoring, Error Boundaries)
 - [ ] **PART 18** — Deployment and Infrastructure (Docker, Nginx, CI/CD)
 - [ ] **PART 19** — Project Journey (5 Progressive Real-World Projects)

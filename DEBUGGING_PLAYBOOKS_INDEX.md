@@ -20,3 +20,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-014** | Production Incident Response, Source Maps & Memory Heap Triage | Observability / Memory | Sentry source maps de-minification, 3-snapshot heap analysis, stale SW purging | Published |
 | **PB-015** | Frontend Performance & Virtualization Triage | Performance / Profiling | React Profiler flamegraphs, @tanstack/react-virtual, INP long tasks, Rollup visualizer | Published |
 | **PB-016** | Test Automation, Async Act Warnings & MSW Triage | Testing / Automation | Async act(...) warnings, MSW handler precedence, Playwright trace viewer debugging | Published |
+| **PB-017** | Frontend Security Incident, XSS Sanitization & CSP Violation Triage | Security / XSS | Stored XSS containment, DOMPurify configuration, CSP directive blocks, CSRF token triage | Published |
