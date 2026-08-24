@@ -9,3 +9,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-003** | TypeScript Compilation vs Runtime API Validation Triage | Full-Stack Boundary | Zod schemas, type guards, DTO contract drift mitigation | Published |
 | **PB-004** | React Component Identity & Key Reconciliation Triage | Component / Tree | Focus loss, index key state corruption, and remount thrashing | Published |
 | **PB-005** | React Fiber Rendering & Hydration Mismatch Triage | Fiber / SSR | Infinite re-render loops, hydration diffs, and transition starvation | Published |
+| **PB-006** | React Hooks & Memory Leak Triage | Hooks / Lifecycle | Stale closures, dependency loops, and detached DOM heap leaks | Published |
