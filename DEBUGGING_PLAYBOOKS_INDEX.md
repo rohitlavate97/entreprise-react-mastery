@@ -29,3 +29,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-023** | Enterprise Pull Request Review & Architectural Gatekeeping SOP | Review / Quality | Senior review rubric, security checklists, state colocation gatekeeping, review prefixes | Published |
 | **PB-024** | Deliberate Engineering Practice & Continuous Skill Acquisition SOP | Practice / Habits | 45-min daily mastery loop, sandboxed break-and-fix drills, weekly knowledge gap audits | Published |
 | **PB-025** | Architecture Decision Record (ADR) & Technical Governance SOP | Governance / ADR | ADR authoring lifecycles, ARB consensus voting, automated CI lint enforcement, deprecations | Published |
+| **PB-026** | Staff Engineer Technical Assessment & Live Interview Command SOP | Interview / SystemDesign | 4-step frontend system design blueprint, live coding survival rules, behavioral STAR rubric | Published |
