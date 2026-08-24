@@ -23,3 +23,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-017** | Frontend Security Incident, XSS Sanitization & CSP Violation Triage | Security / XSS | Stored XSS containment, DOMPurify configuration, CSP directive blocks, CSRF token triage | Published |
 | **PB-018** | Distributed Tracing & Observability Pipeline Triage | Observability / Tracing | W3C traceparent headers, Sentry session replay PII masking, client log storm batching | Published |
 | **PB-019** | Container Deployment, Nginx Routing & CI/CD Pipeline Triage | Deployment / Nginx | Nginx try_files 404, two-tier cache headers, Docker non-root permissions, runtime env vars | Published |
+| **PB-020** | Full-Stack Project Architecture & Monorepo Scaling Triage | Architecture / Scaling | Multi-tenant cache purges, RAF WebSocket tick throttling, optimistic concurrency rollback | Published |
