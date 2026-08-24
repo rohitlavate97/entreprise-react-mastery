@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 16 Completed -> Ready for PART 17  
-**Last Updated:** Part 16 Security (XSS, CSRF, Content Security Policy) Completed
+**Current Phase:** PART 17 Completed -> Ready for PART 18  
+**Last Updated:** Part 17 Observability (Trace IDs, Sentry/Monitoring, Error Boundaries) Completed
 
 ---
 
@@ -148,7 +148,12 @@
   - [x] 16.3 Content Security Policy (CSP), Nonces & Clickjacking Defense
   - [x] 16.4 Software Supply Chain Security, npm Audits & Subresource Integrity (SRI)
   - [x] 16.5 Security Engineering Issues Lab (SEC-001 to SEC-008)
-- [ ] **PART 17** — Observability (Trace IDs, Sentry/Monitoring, Error Boundaries)
+- [x] **PART 17** — Observability (Trace IDs, Sentry/Monitoring, Error Boundaries)
+  - [x] 17.1 OpenTelemetry & W3C Distributed TraceContext Propagation
+  - [x] 17.2 Structured Client Logging, Context Enrichment & Batch Shipping
+  - [x] 17.3 User Session Replay, DOM Recording & Privacy Masking
+  - [x] 17.4 Synthetic Health Checks, Heartbeats & Offline Resilience
+  - [x] 17.5 Observability Issues Lab (OBS-001 to OBS-008)
 - [ ] **PART 18** — Deployment and Infrastructure (Docker, Nginx, CI/CD)
 - [ ] **PART 19** — Project Journey (5 Progressive Real-World Projects)
 - [ ] **PART 20** — Production Incident Laboratory (Simulations)

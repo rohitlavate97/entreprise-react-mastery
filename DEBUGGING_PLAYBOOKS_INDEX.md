@@ -21,3 +21,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-015** | Frontend Performance & Virtualization Triage | Performance / Profiling | React Profiler flamegraphs, @tanstack/react-virtual, INP long tasks, Rollup visualizer | Published |
 | **PB-016** | Test Automation, Async Act Warnings & MSW Triage | Testing / Automation | Async act(...) warnings, MSW handler precedence, Playwright trace viewer debugging | Published |
 | **PB-017** | Frontend Security Incident, XSS Sanitization & CSP Violation Triage | Security / XSS | Stored XSS containment, DOMPurify configuration, CSP directive blocks, CSRF token triage | Published |
+| **PB-018** | Distributed Tracing & Observability Pipeline Triage | Observability / Tracing | W3C traceparent headers, Sentry session replay PII masking, client log storm batching | Published |
