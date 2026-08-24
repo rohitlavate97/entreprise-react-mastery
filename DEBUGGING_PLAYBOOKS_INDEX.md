@@ -17,3 +17,4 @@ Senior Engineer debugging workflows, mental models, and step-by-step triage play
 | **PB-011** | API Client, Auth Interceptor & Network Resilience Triage | API / Resilience | Token refresh race conditions, infinite 401 loops, CORS preflight errors, DTO drift | Published |
 | **PB-012** | Full-Stack React + Spring Boot Integration Triage | Spring / React | CORS preflight ordering, Long ID truncation, CSRF tokens, JPA optimistic concurrency 409 | Published |
 | **PB-013** | Local Development Environment & Vite Proxy Triage | Vite / DevServer | HMR websocket failures, duplicate React instances, Vite dev proxy, WSL2 polling | Published |
+| **PB-014** | Production Incident Response, Source Maps & Memory Heap Triage | Observability / Memory | Sentry source maps de-minification, 3-snapshot heap analysis, stale SW purging | Published |
