@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 13 Completed -> Ready for PART 14  
-**Last Updated:** Part 13 Production Debugging and Incident Response Completed
+**Current Phase:** PART 14 Completed -> Ready for PART 15  
+**Last Updated:** Part 14 Performance Engineering & Web Vitals Completed
 
 ---
 
@@ -130,7 +130,12 @@
   - [x] 13.3 Chrome DevTools Heap Snapshots & Memory Leak Diagnostics
   - [x] 13.4 Real User Monitoring (RUM) & Core Web Vitals Telemetry
   - [x] 13.5 Production Incident Issues Lab (PROD-001 to PROD-008)
-- [ ] **PART 14** — Performance Engineering & Web Vitals
+- [x] **PART 14** — Performance Engineering & Web Vitals
+  - [x] 14.1 React DevTools Profiler, Flamegraphs & Render Diagnosis
+  - [x] 14.2 Virtualization & DOM Windowing for Massive Datasets
+  - [x] 14.3 Bundle Optimization, Code Splitting & Tree-Shaking Discipline
+  - [x] 14.4 Core Web Vitals Optimization: LCP, INP & CLS Engineering
+  - [x] 14.5 Performance Issues Lab (PERF-001 to PERF-008)
 - [ ] **PART 15** — Testing Strategy & Test Automation
 - [ ] **PART 16** — Security (XSS, CSRF, Content Security Policy)
 - [ ] **PART 17** — Observability (Trace IDs, Sentry/Monitoring, Error Boundaries)
