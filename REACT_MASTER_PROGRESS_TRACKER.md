@@ -1,8 +1,8 @@
 # React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 10 Completed -> Ready for PART 11  
-**Last Updated:** Part 10 API and Networking Architecture Completed
+**Current Phase:** PART 11 Completed -> Ready for PART 12  
+**Last Updated:** Part 11 React + Spring Boot Integration (Contracts, Auth, CORS, Idempotency) Completed
 
 ---
 
@@ -111,7 +111,13 @@
   - [x] 10.4 In-Flight Request Deduplication & Signal Cancellation
   - [x] 10.5 Runtime API Validation with Zod & DTO Drift Defense
   - [x] 10.6 API & Networking Issues Lab (API-001 to API-008)
-- [ ] **PART 11** — React + Spring Boot Integration (Contracts, Auth, CORS, Idempotency)
+- [x] **PART 11** — React + Spring Boot Integration (Contracts, Auth, CORS, Idempotency)
+  - [x] 11.1 Full-Stack Contract Design & DTO Alignment (Spring Boot & TypeScript)
+  - [x] 11.2 Enterprise Authentication Architecture: Spring Security 6, JWT & HttpOnly Cookies
+  - [x] 11.3 Spring Boot CORS Architecture & Filter Chain Ordering
+  - [x] 11.4 Idempotency, JPA Optimistic Locking & ETag Concurrency Control
+  - [x] 11.5 Error Handling & RFC 7807 Problem Details (Spring Boot 3 to React)
+  - [x] 11.6 Spring Boot Integration Issues Lab (SPRING-001 to SPRING-008)
 - [ ] **PART 12** — Local Development Troubleshooting Database
 - [ ] **PART 13** — Production Debugging and Incident Response
 - [ ] **PART 14** — Performance Engineering & Web Vitals
