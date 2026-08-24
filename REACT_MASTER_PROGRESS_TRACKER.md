@@ -1,8 +1,8 @@
 ﻿# React + Spring Boot Engineering Mastery — Progress Tracker
 
 **Status:** In Progress  
-**Current Phase:** PART 0 Completed -> Ready for PART 1  
-**Last Updated:** Part 0 Web, Browser, and HTTP Foundations Completed
+**Current Phase:** PART 1 Completed -> Ready for PART 2  
+**Last Updated:** Part 1 JavaScript Deep Mastery for React Completed
 
 ---
 
@@ -10,18 +10,18 @@
 
 | Area | Assessed Level | Confidence | Key Strengths / Gaps Identified |
 |---|---|---|---|
-| **JavaScript (ES6+, Event Loop, Closures, Async)** | Foundation Built | High | Event Loop, Call Stack, Micro/Macrotask mechanics mastered |
+| **JavaScript (ES6+, Event Loop, Closures, Async)** | Advanced | High | Lexical scoping, TDZ, Referential equality, Object.is, AbortController, Purity, ESM treeshaking |
 | **TypeScript (Generics, Unions, Discriminated Unions, Typing)** | Pending Part 2 | - | Ready for deep dive |
 | **HTML / CSS (Layout, Box Model, Paint/Reflow)** | Strong | High | Rendering pipeline, Reflow vs Paint vs Compositing mastered |
 | **Browser Internals / DOM (Rendering pipeline, DevTools)** | Strong | High | DevTools Performance & Memory profiling workflows mastered |
 | **HTTP / REST / Networking (CORS, Headers, Statuses, Caching)** | Strong | High | CORS preflight mechanics, Cache-Control & Nginx SPA fallbacks mastered |
 | **React Fundamentals (JSX, Virtual DOM, Components, Props, Keys)** | Pending Part 3 | - | Ready for deep dive |
-| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | Pending Part 5 | - | Ready for deep dive |
-| **Component Design & Architecture (Feature Slices, Composition)** | Pending Part 6 | - | Ready for deep dive |
+| **React Hooks Mastery (useState, useEffect, useRef, useMemo, etc.)** | Foundation Built | High | Closure capture & functional updater mechanics mastered |
+| **Component Design & Architecture (Feature Slices, Composition)** | Foundation Built | High | Barrel circular dependency resolution mastered |
 | **Routing (React Router, SPA 404s, Protected Routes)** | Foundation Built | High | Nginx SPA fallback `try_files` rule mastered |
 | **Form Engineering (Controlled, Uncontrolled, Validation)** | Pending Part 8 | - | Ready for deep dive |
-| **State Management (Local, Server State, Global, URL State)** | Pending Part 9 | - | Ready for deep dive |
-| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | Foundation Built | High | CORS headers, HTTP Status codes, Preflights mastered |
+| **State Management (Local, Server State, Global, URL State)** | Foundation Built | High | Immutability, pointer checks, and shallow clone gotchas mastered |
+| **API & Networking Layer (Axios/Fetch, Interceptors, Normalization)** | Strong | High | AbortController request cancellation, Promise.all vs allSettled mastered |
 | **React + Spring Boot Integration (DTOs, Long/Date precision, CORS)** | Foundation Built | High | Spring Security CORS configuration & OPTIONS permitAll mastered |
 | **Spring Boot & Spring Security (Filters, JWT/Cookie Auth, RBAC)** | Foundation Built | High | Security filter chain vs CORS filter order mastered |
 | **Databases & SQL (JPA, Schema, Constraints, Transactions)** | Pending Part 11 | - | Ready for deep dive |
@@ -41,7 +41,13 @@
   - [x] 0.3 HTTP Networking, Caching Headers & CORS Mechanics
   - [x] 0.4 Browser Storage & Client-Side Security
   - [x] 0.5 Browser & Networking Issues Lab (BROWSER-001 to BROWSER-008)
-- [ ] **PART 1** — JavaScript Deep Mastery for React
+- [x] **PART 1** — JavaScript Deep Mastery for React
+  - [x] 1.1 Scope, Hoisting, Temporal Dead Zone & Closure Mechanics
+  - [x] 1.2 Referential Identity, Immutability & Object.is in React
+  - [x] 1.3 Functions, `this` Binding, Purity & React Render Discipline
+  - [x] 1.4 Asynchronous JavaScript, Promises, AbortController & Race Conditions
+  - [x] 1.5 ES Modules, Circular Dependencies & Tree Shaking
+  - [x] 1.6 JavaScript Issues Lab (JS-001 to JS-008)
 - [ ] **PART 2** — TypeScript for Production React
 - [ ] **PART 3** — React Fundamentals (From First Principles)
 - [ ] **PART 4** — How React Actually Works (Reconciliation, Fiber, Batching)
